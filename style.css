@@ -37,7 +37,6 @@ body {
     margin: 0;
     background-image: url(img/p1.jpg);
     background-size: cover;
-    height: 1700px;
 }
 
 .entete{
@@ -112,6 +111,7 @@ body {
 .page3{
     background-image: url(img/p3.jpg);
     background-size: cover;
+    height: 1100px;
 }
 
 
@@ -155,10 +155,12 @@ body {
 
 ul{
     list-style: none;
+    font-size: 35px;
 }
 
 .CV{
-    margin-bottom: 20px;
+    display: block;
+    margin-top: 250px;
     margin-left: 350px;
     color: white;
     font-size: 40px;
@@ -181,7 +183,7 @@ ul{
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    margin-top: 300px;
+    margin-top: 120px;
 }
 
 .h24{
@@ -215,7 +217,7 @@ ul{
 
 
 .page5{
-    background-color: rgb(70, 24, 207);
+    background-color:rgba(8, 0, 0, 0.974);opacity: 1.2;
     
     
 }
@@ -241,7 +243,7 @@ ul{
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     margin-top: 50px;
-    background-color: rgba(0, 0, 0, 0.169);opacity: 1.2;
+    background-color: rgba(8, 0, 0, 0.974);opacity: 1.2;
     
 }
 .zoom:hover{

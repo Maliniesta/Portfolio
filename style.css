@@ -11,6 +11,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
@@ -85,28 +86,28 @@ body {
 }
 
 .presentation{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+
+    padding: 20px;
+    
+
 }
+    
 .img2{
-    
-    max-width: 40%;
     height: 600px;
-    margin-left: 30px;
-    margin-top: 100px;
-    
+     
 }
 
 .texte{
-    margin-top: 100px;
-    max-width: 50%;
-    float: right;
-    margin-right: 30px;
+    margin-left: 20px;
     font-weight: 500;
     font-size: 25px;
+    max-height: 500px;
+   
 }
 
 .page3{
@@ -259,6 +260,10 @@ ul{
         -ms-transform: scale(1.5);
             transform: scale(1.5);
 
+}
+
+@media screen and(max-widht:705px) {
+  
 }
 
 

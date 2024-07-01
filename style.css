@@ -46,7 +46,7 @@ body {
     margin: 0;
     background-image: url(img/p1.jpg);
     background-size: cover;
-    height: 1400px;
+    height: 920px;
 }
 
 .entete{
@@ -74,7 +74,7 @@ body {
     font-size: 80px;
     text-decoration: none;
     color: white;
-    margin-top: 200px;
+    margin-top: 0px;
     text-align: center;
 }
 
@@ -85,8 +85,9 @@ body {
     transition: .5s;
 }
 
+
 .h22{
-    margin-top: 150px;
+    margin-top: 50px;
     color: rgb(133, 14, 237);
     font-size: 80px;
     text-align: center;
@@ -97,16 +98,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    height: auto;
-
+    justify-content: space-evenly;
     padding: 20px;
     
 
@@ -118,6 +110,7 @@ body {
 }
 
 .texte{
+    margin-top: 200px;
     margin-left: 20px;
     font-weight: 500;
     font-size: 25px;
@@ -128,12 +121,12 @@ body {
 .page3{
     background-image: url(img/p3.jpg);
     background-size: cover;
-    height: 1200px;
+    height: 920px;
 }
 
 
 .h23{
-    margin-top: 150px;
+    margin-top: 50px;
     color: rgb(133, 14, 237);
     font-size: 80px;
     text-align: center;
@@ -183,8 +176,8 @@ ul{
 
 .CV{
     display: block;
-    margin-top: 250px;
-    margin-left: 350px;
+    text-align: center;
+    margin-top: 0px;
     color: white;
     font-size: 40px;
     text-decoration: none;
@@ -236,6 +229,20 @@ ul{
     margin-bottom: 20px;
     padding: 50px;
 
+}
+.soustitre a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    padding: 30px;
+
+}
+
+.soustitre a:hover{
+    color: blue;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
 }
 
 

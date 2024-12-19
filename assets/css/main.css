@@ -722,7 +722,9 @@ section,
   .hero h2 {
     font-size: 32px;
   }
-
+  .section-title h2 {
+    font-size: 80px;
+  }
   .hero p {
     font-size: 20px;
   }

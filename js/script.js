@@ -40,14 +40,11 @@ menuButton.addEventListener('click', () => {
     }
 });
 
-menuButton.addEventListener('touchstart', () => {
-    // Alterner entre afficher et cacher la liste
-    if (liste.style.display === 'flex') {
-        liste.style.display = 'none'; // Cache la liste
-    } else {
-        liste.style.display = 'flex'; // Affiche la liste
-    }
+menuButton.addEventListener('click', () => {
+    liste.classList.toggle('hidden');
+    liste.classList.toggle('visible');
 });
+
 
 
 

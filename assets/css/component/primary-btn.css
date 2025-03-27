@@ -1,0 +1,77 @@
+.primary-btn{
+    height: 80px;
+    width: 200px;
+    background-color:rgb(39, 36, 36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 23px;
+    line-height: 1.5;
+    border: 2px solid  rgb(3, 27, 245);
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family: 'anton';
+    font-weight: 100;
+    letter-spacing: 10;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.primary-btn:hover{
+    background: rgb(3, 27, 245);
+    
+}
+
+#preview {
+    position: absolute; /* Positionnement absolu pour un placement précis */
+    top: 57%; /* Ajustez si nécessaire selon votre mise en page */
+    left: 85%; /* Ajustez si nécessaire pour aligner avec vos besoins */
+    transform: translate(-50%, -50%); /* Centre l'élément horizontalement et verticalement */
+    width: 400px; /* Largeur définie pour le conteneur */
+    height: 600px; /* Hauteur définie pour le conteneur */
+    border: 2px solid rgb(3, 27, 245); /* Bordure bleue */
+    border-radius: 15px; /* Coins arrondis */
+    display: none; /* Caché par défaut, sera affiché via JavaScript */
+    background: none; /* Supprime tout fond par défaut */
+    background-size: cover; /* Redimensionne l'image pour couvrir tout le conteneur */
+    background-position: center; /* Centre l'image */
+    overflow: hidden; /* Cache tout dépassement de contenu */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Ombre élégante */
+}
+
+@media screen and (min-width:1900px){
+    .primary-btn{
+        height: 150px;
+        width: 400px;
+        padding: 50px 50px;
+        font-size: 23px;
+       
+        
+    }
+    #preview {
+        top: 50%; /* Ajustez si nécessaire selon votre mise en page */
+        left: 85%; /* Ajustez si nécessaire pour aligner avec vos besoins */
+        width: 500px; /* Largeur définie pour le conteneur */
+        height: 800px; /* Hauteur définie pour le conteneur */
+      
+    }
+    
+    
+}
+
+@media (max-width: 480px) {
+  
+    .primary-btn{
+
+        height: 100px;
+        width: 250px;
+        padding: 50px 50px;
+        font-size: 23px;
+       
+    }
+ }
+
+

@@ -1,0 +1,55 @@
+{
+  
+    "siteWeb": [
+      {
+        "titre":"Home-Page Disney",
+        "image": "../assets/img/project/Home-Disney.png",
+        "url": "https://maliniesta.github.io/Home-Page-Disney/",
+        "Description":"Page d'accueil Disney réalisée avec Sass. C'est une simple page, et les liens ne sont pas cliquables."
+      }
+    ],
+    "applications": [
+      {
+        "titre":"Appli-Meteo",
+        "image": "../assets/img/project/meteo.png",
+        "url": "https://maliniesta.github.io/Appli-Meteo/",
+        "Description":"Application météo en direct de Paris. Cette application a été réalisée avec une API et est adaptée à tous types d'écrans. "
+      },
+      {
+        "titre":"ZenBnB",
+        "image": "../assets/img/project/ZenBnB.png",
+        "url": "https://maliniesta.github.io/ZenBnB/",
+        "Description":"Site de réservation de logements en ligne avec un formulaire à remplir et adaptée à tous types d'écrans. Les boutons 'Réserver' ne sont pas paramétrés."
+      },
+      {
+       "titre":"Borne Mc-Donalds",
+        "image": "Accueil",
+        "url": "/",
+        "Description":"Projets réalisés en méthode Agile Scrum pour passer commande chez McDonald's, avec génération de ticket et résumé des achats."
+      },
+      {
+        "titre":"Todo-List",
+        "image": "../assets/img/project/Todo-List.png",
+        "url": "https://maliniesta.github.io/todo-list/",
+        "Description":"Une simple to-do list pour éditer, sauvegarder ou supprimer les tâches à réaliser."
+      }
+      
+    ],
+    "games": [
+        {
+          "titre":"Morpion",
+          "image": "../assets/img/project/Morpion.png",
+          "url": "https://maliniesta.github.io/morpion/",
+          "Description":"Le célèbre jeu du Morpion avec un compteur de points pour les deux joueurs. Bonne chance !"
+        },
+        {
+          "titre":"Casse-Brique",
+          "image": "../assets/img/project/casse-brique.png",
+          "url": "https://maliniesta.github.io/casse-brique/",
+          "Description":"Jeu du Casse-Brique réalisé avec Canvas et JavaScript. Attention, la balle accélère à chaque rebond !"
+        }
+      ]
+   
+    
+    
+  }

@@ -1,0 +1,47 @@
+
+.menu {
+    position: relative;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20rem;
+    align-items: center;
+}
+
+.logo img{
+    width: 200px;
+    height: 200px;
+}
+
+.back a {
+text-decoration: none;
+color: white;
+font-size: 30px;
+
+}
+
+.back img{
+    width: 200px;
+    height: 200px;
+}
+
+.image-clickable{
+    cursor: pointer;
+}
+@media (max-width: 480px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    
+
+    
+    
+ }
+}

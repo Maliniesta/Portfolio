@@ -1,0 +1,75 @@
+.container-projects{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    margin-top: 4rem;
+}
+
+.container-projects a{
+    text-decoration: none;
+}
+
+
+
+.appli-web,.site-web,.games-web{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #504d4d; /* Couleur gris clair pour la boîte */
+    border: 5px solid #FFD700; /* Bordure gris clair */
+    border-radius: 10px; /* Coins arrondis pour une esthétique plus douce */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre subtile */
+}
+
+
+.item a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #FFD700;
+    padding: 1rem;
+}
+
+.item img{
+    height: 200px;
+    width: 200px;
+}
+
+.titre{
+    display: flex;
+    justify-content: space-around;
+    background-color: #504d4d;
+    margin-top: 9rem;
+    padding: 2rem;
+}
+
+@media (max-width: 480px) {
+    .appli-web,.site-web,.games-web{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .item {
+        width: 100%;
+      
+    }
+    .titre{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 0;
+ }
+}

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'anton' ;
+    src: url('../font/Anton-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url('../font/Oswald-Regular.ttf');
+}
+
+body{
+    background-color: black;
+}
+
+h1 {
+    font-family: 'anton';
+    background: linear-gradient(90deg, rgb(3, 27, 245), rgb(152, 152, 233), rgb(3, 27, 245));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    text-align: center;
+    width: 70%; 
+    line-height: 1.1; 
+    margin: auto;
+    margin-top: 1rem;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color:  rgb(152, 152, 233);
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+}
+
+h4{
+    color: white;
+    text-align: center;
+    font-family: 'anton';
+    font-size: 30px;
+    
+}
+
+h5{
+    color: white;
+    text-align: center;
+    margin: 2rem;
+    font-size: 30px;
+    font-family: 'oswald';
+}
+
+h6{
+    color:#FFD700; 
+    text-align: center;
+    font-size: 50px;
+    font-family: 'oswald';
+    background-color: #504d4d ;
+}
+
+
+.container-fixed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+@media screen and (min-width:1900px){
+ 
+    .container-fixed{
+        gap: 11rem;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+   h1{
+    font-size: 50px;
+   }
+   h6{
+    font-size: 40px;
+   }
+ 
+}
+
+
+
+
+
+
+

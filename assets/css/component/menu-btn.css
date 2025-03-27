@@ -1,0 +1,77 @@
+.menu-btn {
+    background-color: #ccb11b;
+  color: black;
+  font-family: 'anton';
+  padding: 34px; /* Espacement interne */
+  border: none; /* Sans bordure */
+  border-radius: 12px;
+  font-size: 28px; /* Taille du texte */
+  font-weight: bold; /* Texte en gras */
+  cursor: pointer; /* Curseur interactif */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Ombre élégante */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Effet fluide */
+}
+
+.liste {
+    position: absolute;
+    top: 100%; /* Position sous le bouton */
+    left: 50%; /* Centre horizontalement */
+    transform: translateX(-50%); /* Correction pour centrer parfaitement */
+    background-color: gray;
+    border: 1px solid #ddd;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 200px;
+    display: none; /* Caché par défaut */
+    text-align: center; /* Centre le contenu de la liste */
+}
+
+.liste li {
+    padding: 10px; /* Espacement interne */
+}
+
+.liste li a {
+    text-decoration: none;
+    color: #FFD700;
+    display: block;
+}
+
+.liste li:hover {
+    background-color: black; /* Changer de couleur au survol */
+}
+
+.liste {
+    display: none; /* Masque la liste par défaut */
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: gray;
+    border: 1px solid #ddd;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 200px;
+}
+
+.menu:hover .liste {
+    display: flex; /* Affiche la liste au survol sur desktop */
+}
+
+
+.down {
+    display: inline-block;
+    margin-left: 8px; 
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent; 
+    border-right: 6px solid transparent; 
+    border-top: 6px solid black; 
+  }
+
+  @media (max-width: 480px) {
+    .liste li a {
+       font-size: 25px;
+    }
+  
+ }

@@ -82,5 +82,16 @@
     .liste li a {
        font-size: 25px;
     }
-  
+    .liste.hidden {
+        display: none; /* Masquer la liste */
+    }
+    
+    .liste.visible {
+        display: flex; /* Afficher la liste */
+        position: inherit; /* Hériter du positionnement */
+        /* Ajoute ou ajuste d'autres propriétés comme nécessaires */
+        background-color: gray;
+        padding: 10px; /* Espacement interne */
+        border-radius: 5px; /* Arrondi des bords */
+    }
  }

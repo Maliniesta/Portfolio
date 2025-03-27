@@ -38,10 +38,9 @@ font-size: 30px;
     .navbar{
         display: flex;
         flex-direction: column;
-        gap: 0;
-    
-
-    
-    
+        gap: 0;  
  }
+ .logo img{
+    display: none;
+}
 }

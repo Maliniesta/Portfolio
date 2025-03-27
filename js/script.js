@@ -13,7 +13,10 @@ for (let i = 0; i < buttons.length; i++) {
         preview.style.backgroundImage = ''; 
     });
 
-   
+    buttons[i].addEventListener('click', function () {
+        const url = this.getAttribute('data-url'); 
+        window.location.href = url; 
+    });
 }
 
 

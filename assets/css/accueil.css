@@ -58,13 +58,13 @@
     overflow: hidden;
     position: relative;
     height: 5rem;
-    width: 100%; /* Largeur ajustée de la div */
+    width: 100%; 
     background-color: rgba(128, 128, 128, 0.1); 
 }
 
 #scrolling-text {
     position: absolute;
-    white-space: nowrap; /* Empêche les sauts de ligne */
+    white-space: nowrap; 
     color: rgb(235, 231, 12);
     font-size: 46px;
     font-family: 'anton';
@@ -85,7 +85,7 @@
     #scrolling-text {
         color: rgb(235, 231, 12);
         font-size: 56px;
-        top: 50%; /* Place le texte au milieu verticalement */
+        top: 50%; 
         transform: translateY(-50%); /* Centre précisément le texte */
         
        

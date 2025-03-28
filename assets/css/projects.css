@@ -27,10 +27,10 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    background-color: #504d4d; /* Couleur gris clair pour la boîte */
-    border: 5px solid #FFD700; /* Bordure gris clair */
-    border-radius: 10px; /* Coins arrondis pour une esthétique plus douce */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre subtile */
+    background-color: #504d4d; 
+    border: 5px solid #FFD700; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 

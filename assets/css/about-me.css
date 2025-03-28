@@ -70,52 +70,52 @@
     width: 50px;
 }
 
-/* Contenu initialement hors écran */
+
 .story-img {
     opacity: 0;
     transform: translateX(-100%); /* Image arrive depuis la gauche */
-    transition: transform 1s ease-out, opacity 1s ease-out; /* Animation fluide */
+    transition: transform 1s ease-out, opacity 1s ease-out; 
 }
 
 .presentation {
     opacity: 0;
-    transform: translateX(100%); /* Texte arrive depuis la droite */
+    transform: translateX(100%); 
     transition: transform 1s ease-out, opacity 1s ease-out;
 }
 
 /* Quand visibles, ils restent en place */
 .story-img.visible {
     opacity: 1;
-    transform: translateX(0); /* Position normale */
-    transition: transform 1s ease-out, opacity 1s ease-out; /* Animation fluide */
+    transform: translateX(0); 
+    transition: transform 1s ease-out, opacity 1s ease-out; 
 }
 
 .presentation.visible {
     opacity: 1;
-    transform: translateX(0); /* Position normale */
+    transform: translateX(0); 
     transition: transform 1s ease-out, opacity 1s ease-out;
 }
 
 /* Initialement caché pour #career */
 #career .career-img {
     opacity: 0;
-    transform: translateX(-100%); /* L'image arrive depuis la gauche */
+    transform: translateX(-100%); 
 }
 
 #career .parcours {
     opacity: 0;
-    transform: translateX(100%); /* Le texte arrive depuis la droite */
+    transform: translateX(100%); 
 }
 
 /* Quand visibles */
 #career .career-img.visible {
     opacity: 1;
-    transform: translateX(0); /* Position normale */
+    transform: translateX(0); 
 }
 
 #career .parcours.visible {
     opacity: 1;
-    transform: translateX(0); /* Position normale */
+    transform: translateX(0); 
 }
 
 @media screen and (min-width:1900px){

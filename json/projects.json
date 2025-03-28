@@ -5,7 +5,7 @@
         "titre":"Home-Page Disney",
         "image": "../assets/img/project/Home-Disney.png",
         "url": "https://maliniesta.github.io/Home-Page-Disney/",
-        "Description":"Page d'accueil Disney réalisée avec Sass. C'est une simple page, et les liens ne sont pas cliquables."
+        "Description":"Page d'accueil Disney réalisée avec Sass et responsive. C'est une simple page, et les liens ne sont pas cliquables ."
       },
       {
         "titre":"Moment d'évasion",
@@ -19,13 +19,19 @@
         "titre":"Appli-Meteo",
         "image": "../assets/img/project/meteo.png",
         "url": "https://maliniesta.github.io/Appli-Meteo/",
-        "Description":"Application météo en direct de Paris. Cette application a été réalisée avec une API et est adaptée à tous types d'écrans. "
+        "Description":"Application météo en direct de Paris responsive. Cette application a été réalisée avec une API et est adaptée à tous types d'écrans. "
       },
       {
         "titre":"ZenBnB",
         "image": "../assets/img/project/ZenBnB.png",
         "url": "https://maliniesta.github.io/ZenBnB/",
-        "Description":"Site de réservation de logements en ligne avec un formulaire à remplir et adaptée à tous types d'écrans. Les boutons 'Réserver' ne sont pas paramétrés."
+        "Description":"Plateforme de réservation de logements en ligne, dotée d’un formulaire à remplir et d’une interface responsive. Les données sont extraites d’un fichier JSON. Les boutons 'Réserver' ne sont pas encore fonctionnels."
+      },
+      {
+        "titre":"Back-Office",
+        "image": "../assets/img/project/backoffice.png",
+        "url": "https://maliniesta.github.io/back-office/",
+        "Description":"Outil de gestion d’articles en ligne permettant d’ajouter, de supprimer et de modifier des produits. Les données affichées à l’entrée du site sont extraites d’un fichier JSON. L’interface est entièrement responsive."
       },
       {
         "titre":"Todo-List",
@@ -40,7 +46,7 @@
           "titre":"Morpion",
           "image": "../assets/img/project/Morpion.png",
           "url": "https://maliniesta.github.io/morpion/",
-          "Description":"Le célèbre jeu du Morpion avec un compteur de points pour les deux joueurs. Bonne chance !"
+          "Description":"Le célèbre jeu du Morpion adapté a tout les écrans et avec un compteur de points pour les deux joueurs. Bonne chance !"
         },
         {
           "titre":"Casse-Brique",

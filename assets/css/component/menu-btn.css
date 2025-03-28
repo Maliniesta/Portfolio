@@ -2,33 +2,33 @@
     background-color: #ccb11b;
   color: black;
   font-family: 'anton';
-  padding: 34px; /* Espacement interne */
-  border: none; /* Sans bordure */
+  padding: 34px; 
+  border: none; 
   border-radius: 12px;
-  font-size: 28px; /* Taille du texte */
-  font-weight: bold; /* Texte en gras */
-  cursor: pointer; /* Curseur interactif */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Ombre élégante */
+  font-size: 28px; 
+  font-weight: bold; 
+  cursor: pointer; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); 
   transition: transform 0.2s ease, box-shadow 0.2s ease; /* Effet fluide */
 }
 
 .liste {
     position: absolute;
-    top: 100%; /* Position sous le bouton */
-    left: 50%; /* Centre horizontalement */
-    transform: translateX(-50%); /* Correction pour centrer parfaitement */
+    top: 100%; 
+    left: 50%; 
+    transform: translateX(-50%); 
     background-color: gray;
     border: 1px solid #ddd;
     list-style: none;
     padding: 0;
     margin: 0;
     min-width: 200px;
-    display: none; /* Caché par défaut */
-    text-align: center; /* Centre le contenu de la liste */
+    display: none; 
+    text-align: center; 
 }
 
 .liste li {
-    padding: 10px; /* Espacement interne */
+    padding: 10px;
 }
 
 .liste li a {
@@ -42,7 +42,7 @@
 }
 
 .liste {
-    display: none; /* Masque la liste par défaut */
+    display: none; 
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -55,7 +55,7 @@
 }
 
 .menu:hover .liste {
-    display: flex; /* Affiche la liste au survol sur desktop */
+    display: flex; 
 }
 
 
@@ -83,15 +83,14 @@
        font-size: 25px;
     }
     .liste.hidden {
-        display: none; /* Masquer la liste */
+        display: none; 
     }
     
     .liste.visible {
-        display: flex; /* Afficher la liste */
+        display: flex; 
         position: inherit; /* Hériter du positionnement */
-        /* Ajoute ou ajuste d'autres propriétés comme nécessaires */
         background-color: gray;
-        padding: 10px; /* Espacement interne */
-        border-radius: 5px; /* Arrondi des bords */
+        padding: 10px; 
+        border-radius: 5px; 
     }
  }

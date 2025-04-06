@@ -1,4 +1,8 @@
 .skills-language {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
     width: 40%;
     padding: 20px;
     border-radius: 10px;
@@ -6,22 +10,28 @@
 }
 
 .skills-soft{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     width: 40%; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px white;
+    text-align: center;
 
 }
 
 .skills{
     display: flex;
     justify-content: space-around;
-    align-items: start;
 }
 
 
 .skill {
-    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
 }
 
 .skill label {
